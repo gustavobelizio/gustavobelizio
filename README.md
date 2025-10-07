@@ -20,7 +20,7 @@ Var, let ou const.
 
  Exemplos: 
  
-A expressão x = 7 é um exemplo do prmeiro tipo.
+A expressão x = 7 é um exemplo do primeiro tipo.
 
 A expressão 3 + 4 é um exemplo do segundo tipo.
 
