@@ -6,7 +6,12 @@
 
 Exemplos: 
 
-Var, let ou const.
+```js
+let nome = "Gustavo";
+const idade = 18;
+var cidade = "São Paulo";
+
+````
 
 **-Vantagens e desvantagens:**
 
@@ -20,11 +25,15 @@ Var, let ou const.
 
  Exemplos: 
  
-A expressão x = 7 é um exemplo do primeiro tipo.
+```js
 
-A expressão 3 + 4 é um exemplo do segundo tipo.
+let idade = 20;
+let podeDirigir = (idade >= 18) ? "Sim" : "Não";
 
-E tem as strings como "olá, mundo" uma string literal.
+console.log(`Pode dirigir? ${podeDirigir}`);
+
+
+```
 
  **-Vantagens e desvantagens:**
 
@@ -38,14 +47,14 @@ E tem as strings como "olá, mundo" uma string literal.
 
 Exemplos:
 
-const saudacao = nome => "olá, ${nome}!";
-console.log(saudacao("joao")) ; // saida: olá, joao!
+```js
+const saudacao = () => {
+  console.log("Olá, mundo!");
+};
 
-const dobrar = valor => valor * 2;
-console.log(dobrar(10)) ; saida: 20
+saudacao(); // Saída: Olá, mundo!
 
-const soma = (a , b) => a + b;
-console.log (soma(5 , 3)); // saida: 8
+````
 
 **-vantagens e desvantagens:**
 
